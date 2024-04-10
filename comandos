@@ -1,6 +1,5 @@
 UTILIZAR COMANDO npm init -y
+UTILIZAR COMANDO npm i nodemon
 UTILIZAR COMANDO npm i express
-UTILIZAR COMANDO npm i zod
-UTILIZAR COMANDO npm i cors
-UTILIZAR COMANDO npm i nodemon 
+UTILIZAR COMANDOnpm i prisma -D
 UTILIZAR COMANDO npm run dev
