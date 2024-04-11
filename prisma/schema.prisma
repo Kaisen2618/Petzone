@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+//modelo do banco de dados
+model animais {
+  id String @id @default(uuid())
+  nome String
+  raca String
+  genero String
+  idade String
+  tamanho String
+  vacinado String
+  localizacao String
+  contato String
+  fotourl String
+  informacao String
+  createdAt DateTime @default(now())
+}
