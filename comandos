@@ -2,4 +2,10 @@ UTILIZAR COMANDO npm init -y
 UTILIZAR COMANDO npm i nodemon
 UTILIZAR COMANDO npm i express
 UTILIZAR COMANDOnpm i prisma -D
+UTILIZAR COMANDO npm i @prisma/client
+UTILIZAR COMANDO npx prisma init
+UTILIZAR COMANDO npx prisma generate
+UTILIZAR COMANDO npx prisma migrate dev
+UTILIZAR COMANDO npm i multer
+UTILIZAR COMANDO npm i zod
 UTILIZAR COMANDO npm run dev
